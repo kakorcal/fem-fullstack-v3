@@ -87,4 +87,5 @@ Process manager (PM) will keep the node.js server running (even if your laptop i
 * Stop a running process - `pkill <process>`
 * Test your ssh connection - `ssh -vT <ip_address>`
 * Save a readonly file in vim - `:w !sudo tee %`
-* View permissions as numbers - `stat -c %a <file_name>` 
+* View permissions as numbers - `stat -c %a <file_name>`
+* View the change history of a single file in git - `git log --follow --patch -- <file_name>`
