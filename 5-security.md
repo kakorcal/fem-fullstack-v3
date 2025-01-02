@@ -14,6 +14,8 @@
 
 ## nmap
 
+Utility to view your IPs open ports. Want to have ssh and http/https open and close the rest from access
+
 * Install nmap - `sudo apt install nmap`
 * nmap - `nmap <your_server_ip>`
 * Extra service/version information - `nmap -sV <your_server_ip>`
